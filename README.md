@@ -38,7 +38,7 @@ This project is an online book shopping website built using HTML, PHP, MySQL, an
 
 ![Homepage Thumbnail](output_screenshots/homepage.png)
 
-2. After Loggin in
+2. After Logged in
 
 ![Homepage Thumbnail](output_screenshots/bookstore.png)
 
