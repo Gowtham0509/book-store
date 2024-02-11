@@ -1,44 +1,43 @@
-usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
-           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
-           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
-           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
-           [--config-env=<name>=<envvar>] <command> [<args>]
+# Online Book Shopping Website
 
-These are common Git commands used in various situations:
+This project is an online book shopping website built using HTML, PHP, MySQL, and XAMPP. It provides users with the ability to browse, add books to their cart, and checkout by entering their address and contact number. Administrators can add, update, and delete books from the database.
 
-start a working area (see also: git help tutorial)
-   clone     Clone a repository into a new directory
-   init      Create an empty Git repository or reinitialize an existing one
+## Features
 
-work on the current change (see also: git help everyday)
-   add       Add file contents to the index
-   mv        Move or rename a file, a directory, or a symlink
-   restore   Restore working tree files
-   rm        Remove files from the working tree and from the index
+1. **Admin Functionality**: Administrators can add, update, and delete books from the database.
+2. **Homepage Display**: Newly added books are displayed on the homepage.
+3. **Index Page**: Provides website information, retailers, and publications. Users can sign up or login.
+4. **User Registration**: New users must sign up and register their details.
+5. **User Authentication**: Registered users can log in using their credentials.
+6. **Browse Books**: Users can view various books in different categories.
+7. **Book Description**: Clicking on a book reveals detailed information like price, author, and publisher.
+8. **Add to Cart**: Users can add books to their cart, specifying the quantity required.
+9. **View Cart**: Users can view their cart, containing a summary of added books and total price.
+11. **Remove from Cart**: Users can remove a book from the cart.
+12. **Checkout**: Users can confirm their order by entering contact information and delivery address.
+13. **Order Confirmation**: Upon successful checkout, a confirmation message is displayed, and the order details are stored in the database.
+14. **Print or Save Confirmation**: Users can print or save the order confirmation.
 
-examine the history and state (see also: git help revisions)
-   bisect    Use binary search to find the commit that introduced a bug
-   diff      Show changes between commits, commit and working tree, etc
-   grep      Print lines matching a pattern
-   log       Show commit logs
-   show      Show various types of objects
-   status    Show the working tree status
+## Technologies Used
 
-grow, mark and tweak your common history
-   branch    List, create, or delete branches
-   commit    Record changes to the repository
-   merge     Join two or more development histories together
-   rebase    Reapply commits on top of another base tip
-   reset     Reset current HEAD to the specified state
-   switch    Switch branches
-   tag       Create, list, delete or verify a tag object signed with GPG
+- **HTML**: For front-end structure.
+- **PHP**: For server-side scripting.
+- **MySQL**: For database management.
+- **XAMPP**: For local development environment setup.
 
-collaborate (see also: git help workflows)
-   fetch     Download objects and refs from another repository
-   pull      Fetch from and integrate with another repository or a local branch
-   push      Update remote refs along with associated objects
+## Instructions for Setup
 
-'git help -a' and 'git help -g' list available subcommands and some
-concept guides. See 'git help <command>' or 'git help <concept>'
-to read about a specific subcommand or concept.
-See 'git help git' for an overview of the system.
+1. Install XAMPP on your local machine.
+
+2. Clone this repository into the htdocs folder of your XAMPP installation.
+
+3. Import the provided MySQL database schema.
+
+4. Start the Apache and MySQL servers using XAMPP Control Panel.
+
+5. Open a web browser and navigate to `http://localhost/online-bookstore`.
+
+## Screenshots
+
+1. Homepage
+![Homepage](output_screenshots/homepage.png)
