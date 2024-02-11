@@ -40,4 +40,4 @@ This project is an online book shopping website built using HTML, PHP, MySQL, an
 ## Screenshots
 
 1. Homepage
-![Homepage](output_screenshots/homepage.png)
+![Homepage Thumbnail](output_screenshots/homepage.png)
